@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata-Form</title>
+</head>
+<body style="background-color: purple">
+    <br>
+    <br>
+    <marquee width="100%" behavior="alternate" bgcolor="yellow">  
+        <h2>Coding Blocks</h2>
+    </marquee>
+    </marquee>
+    <br>
+    <br>
+    <marquee width="100%" behavior="alternate" bgcolor="yellow">  
+        <h3>Assignment -1</h3>
+    </marquee>
+    </marquee>
+
+    <center>
+        <h1>My Bio Data</h1>
+        <br>
+        <br>
+        <form action="#" method="GET" style="background-color:hotpink">
+            <fieldset>
+                <legend align="center"> Personal Information </legend>
+                <br>
+                <label for="fname">FirstName: </label>
+                <input type="text" placeholder="First Name" id="fname" required>
+                <label for="lname">LastName: </label>
+                <input type="text" placeholder="Last Name" id="lname">
+                <br>
+                <br>
+                Gender:
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender">
+                <label for="others">Others</label>
+                <input type="radio" id="others" name="gender">
+                <br>
+                <br>
+                <label for="date">Date of Birth</label>
+                <input type="date" id="date">
+                <br>
+                <br>
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="Enter Your Mail" id="email" required>
+                <br>
+                <br>
+                <label for="phone">phone</label>
+                <input type="tel" placeholder="+91" id="phone" maxlength="10" required>
+                <br>
+                <br>
+                <label for="height">Height</label>
+                <input type="number" placeholder="Height in Feet" id="height">
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend align="center">Education</legend>
+                <br>
+                <label for="school">School Name: </label>
+                <input type="text" placeholder="School Name" id="school" required>
+                <br>
+                <br>
+                <label for="class">Class: </label>
+                <input type="text" placeholder="Enter Class" id="class" required>
+                <br>
+                <br>
+                Stream:
+                <select name="" id="">
+                    <option> Stream </option>
+                    <option> Science</option>
+                    <option>Biology</option>
+                    <option>Commerce </option>
+                    <option>Arts</option>
+                </select>
+                <br>
+                <br>
+                <label for="marksheet">Class: </label>
+                <input type="file"  id="marksheet">
+
+            </fieldset>
+            
+        </form>
+        <button style="background-color: grey;" >Submit </button>
+    </center>
+    
+</body>
+</html>
